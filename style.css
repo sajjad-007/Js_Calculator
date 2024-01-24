@@ -1,0 +1,84 @@
+body{
+    /* background-color: #204060; */
+    background-color: #3B4664;
+}
+.cal_container {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+    width: 390px;
+}
+.cal_container h2{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 6px;
+    margin-right: 247px;
+    font-family: 'Black Ops One', system-ui;
+}
+.cal_input input{
+    /* padding: 30px 80px; */
+    color: white;
+    background-color: #181F32;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    height: 86px;
+    width: 342px;
+    font-size: 30px;
+    padding: 0 13px;
+}
+.cal_btn {
+    /* height: 70px; */
+    width: 317px;
+    background-color: #252D44;
+    margin: 0 auto;
+    border-radius: 6px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 25px;
+
+}
+button{
+    /* padding: 5px 10px; */
+    /* padding: 10px; */
+    font-size: 23px;
+    border-radius: 5px;
+    height: 39px;
+    width: 61px;
+    color: #444C5E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    border: #EAE3DB;
+    background-color: #EAE3DB;
+}
+button:nth-child(4){
+    background-color: #647299;
+    color: white;
+    font-size: 18px;
+}
+button:nth-child(17){
+    background-color: #647299;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 46%;
+    text-transform: uppercase;
+}
+button:nth-child(18){
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 46%;
+}
