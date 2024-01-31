@@ -20,8 +20,7 @@ body{
     margin-right: 247px;
     font-family: 'Black Ops One', system-ui;
 }
-.cal_input input{
-    /* padding: 30px 80px; */
+.cal_input .inputbox{
     color: white;
     background-color: #181F32;
     border: none;
@@ -29,9 +28,10 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     height: 86px;
-    width: 342px;
+    width: 362px;
     font-size: 30px;
-    padding: 0 13px;
+    padding-top: 18px;
+    padding-left: 10px;
 }
 .cal_btn {
     /* height: 70px; */
